@@ -1,0 +1,121 @@
+<html>
+    <head>
+<link rel="icon" href="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png" type="image/x-icon"/>
+<link rel="stylesheet" href="style.css">
+<title>Online Resume</title>
+<style>
+</style>
+<script>
+   $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 200) {
+                    $('.go-top').fadeIn(500);
+                } else {
+                    $('.go-top').fadeOut(300);
+                }
+            });
+
+            // Animate the scroll to top
+            $('.go-top').click(function(event) {
+                event.preventDefault();
+                $('html, body').animate({scrollTop: 0}, 300);
+            })
+        });
+</script>
+</head>
+    <body>
+<a href="#" class="go-top" style="display: inline;"><img src="http://www.freeiconspng.com/uploads/arrow-icon-clip-art-file-down-arrow-icon-png-balin-icon-arrow-right--32.png" width=40px height=40px></a>
+<fieldset style="margin:50px"><legend align=center> <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png" alt="DJ Boy" width=120 height=120 style="border-radius: 60px 60px 60px 60px"></legend>
+  <center>  <h1 class="name">Your name here</h1>
+	<br>
+<table cellpadding=20px><tr align=center><td><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(aboutme.png) 0 0 no-repeat; background-size: contain">
+      <span class="name">About me</span>
+    </div>
+    <div class="back">
+      <div class="back-title">This is about me
+	<ul top=30px>
+	<li>Blah</li>
+	<li>Blah blah</li>
+	<li>Blah blah blah</li>
+	<li>Blah blah blah blah</li>
+	</ul>
+	</div>
+    </div>
+  </div>
+</div></td><td> <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(education.png) 0 0 no-repeat; background-size: contain">
+      <span class="name">What I've studied</span>
+    </div>
+    <div class="back">
+      <div class="back-title">This is what I've learnt</div>
+      <p>Educational qualifications</p>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(skills.png) 0 0 no-repeat; background-size: contain">
+      <span class="name">Technical Skills</span>
+    </div>
+    <div class="back">
+      <div class="back-title">Skills</div>
+      <p>Talents.</p>
+    </div>
+  </div>
+</div></td> </tr></table>
+<table cellpadding=20px>
+<tr><td><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(interests.png) 0 0 no-repeat; background-size: contain">
+      <span class="name">Interests</span>
+    </div>
+    <div class="back">
+      <div class="back-title">Interests</div>
+      <p>Interests.</p>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(work.png) 0 0 no-repeat; background-size: contain">
+      <span class="name">Work Experience</span>
+    </div>
+    <div class="back">
+      <div class="back-title">Places of responsibilites</div>
+      <p>List of places and projects I've worked before on</p>
+    </div>
+  </div>
+</div></td>
+<td> <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(ach.png) 0 0 no-repeat; background-size: contain">
+      <span class="name">Achievements</span>
+    </div>
+    <div class="back">
+      <div class="back-title">Achievements</div>
+      <p>Achievements</p>
+    </div>
+  </div>
+</div></td> 
+<td><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front" style="background: url(think.png) 0 0 no-repeat; background-size: contain">
+     <span class="name">Why me ?</span>
+    </div>
+    <div class="back">
+      <div class="back-title">Why me ?</div>
+      <p>Reasons why I've to be preferred over others.</p>
+    </div>
+  </div>
+</div></td></tr></table>
+    </center> 
+
+</fieldset> 
+
+    </body>
+
+
+</html>
